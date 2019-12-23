@@ -1,3 +1,6 @@
 12月20：
 使用django提供的django.form.Form类构建表单，前端自动渲染为html标签格式，后端可直接将传送过来的request交由表单类做实例化，直接提取数据。
 http://www.liujiangblog.com/course/django/110
+12月24：
+captcha构建图形验证码，pip install django-simple-captcha，captcha可以理解为第三方app，直接pip install之后，和自己写的app一样用户即可，注册、设置url等
+http://www.liujiangblog.com/course/django/110
