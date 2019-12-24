@@ -4,3 +4,9 @@ http://www.liujiangblog.com/course/django/110
 12月24：
 captcha构建图形验证码，pip install django-simple-captcha，captcha可以理解为第三方app，直接pip install之后，和自己写的app一样用户即可，注册、设置url等
 http://www.liujiangblog.com/course/django/110
+12月25：
+session：传递给视图request参数的HttpRequest对象中包含一个session属性，可以在Django的任何地方读取request.session属性。
+模板语言中，{{ request }}这个变量会默认传入模板中
+{{ request.path }}先前的url地址
+密码未加密，注册表单有问题
+http://www.liujiangblog.com/course/django/112
